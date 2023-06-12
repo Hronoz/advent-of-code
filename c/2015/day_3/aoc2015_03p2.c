@@ -12,6 +12,8 @@ int main()
   int board[MAXSIZE][MAXSIZE] = { 0 };
   int x_santa = 256, y_santa = 256, result = 0;
   int x_robot = 256, y_robot = 256;
+  
+  board[y_santa][x_santa] = 1;
 
   bool robots_turn = false;
 
